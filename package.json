@@ -1,0 +1,15 @@
+{
+  "name": "typescript-jest-boilerplate",
+  "version": "1.0.0",
+  "description": "A Minimalistic project template to start an application in TypeScript and Jest",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "author": "Shehryar Shoukat",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.9.5",
+    "ts-node": "^8.10.2"
+  }
+}
