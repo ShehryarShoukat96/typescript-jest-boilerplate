@@ -4,12 +4,16 @@
   "description": "A Minimalistic project template to start an application in TypeScript and Jest",
   "main": "src/index.ts",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "test": "jest --testPathPattern .test.ts"
   },
   "author": "Shehryar Shoukat",
   "license": "ISC",
   "dependencies": {
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1",
     "typescript": "^3.9.5",
-    "ts-node": "^8.10.2"
+    "ts-node": "^8.10.2",
+    "ts-jest": "^26.1.0"
   }
 }
